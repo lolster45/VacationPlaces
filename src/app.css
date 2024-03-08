@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#app {
+    min-height: 100vh;
+    background-color: red;
+}
+
+#app nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 80px;
+    background-color: blue;
+}
+#app nav a {
+    text-decoration: none;
+}
+#app nav span {
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+}
