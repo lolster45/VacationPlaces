@@ -9,7 +9,7 @@
     background-color: red;
 }
 
-#app nav {
+#app > nav {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,10 +17,10 @@
     height: 80px;
     background-color: blue;
 }
-#app nav a {
+#app > nav a {
     text-decoration: none;
 }
-#app nav span {
+#app > nav span {
     font-size: 2rem;
     text-decoration: none;
     color: white;

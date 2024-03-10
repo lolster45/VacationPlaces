@@ -7,6 +7,7 @@ import Browse from "./pages/BrowseFolder/Browse";
 
 // Styles...
 import "./app.css"
+import MoreInfo from "./pages/MoreInfoCountry/MoreInfo";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/browse" element={<Browse />} />
+            <Route path="/browse/:official" element={<MoreInfo/>} />
           </Routes>
         </main>
       </BrowserRouter>

@@ -1,0 +1,62 @@
+#browsing_section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    height: auto;
+    padding-bottom: 40px;
+    background-color: rgb(235, 235, 235);
+}
+
+#browsing_section nav {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 30px;
+    width: 80%;
+    background-color: aqua;
+}
+
+#browsing_section #countries_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: fit-content;
+    row-gap: 80px;
+    width: 90%;
+
+}
+
+.country_blocks {
+    position: relative;
+    height: 320px;
+    width: 300px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.country_blocks img{
+    height: 48%;
+    width: 100%;
+}
+.country_blocks_info {
+    padding-top: 10px;
+    height: 52%;
+    width: 100%;
+    background-color: white;
+
+}
+.country_blocks_info h1{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.country_blocks_info > div{
+    padding: 20px;
+}
+.country_blocks_info > div div{
+    margin-bottom: 8px;
+}
